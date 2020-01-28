@@ -7,7 +7,6 @@
 ***************************************************
 */
 
-#include "InitGUI.h"
 #include "Untouchable.h"
 
 #ifndef IS_EMWIN_5_50
