@@ -1,7 +1,7 @@
 # emWin.Untouchable
 
 The version 5.50 of emWin (GUI-library by Segger for embedded applications) has a new function WM_SetUntouchable. 
-This function enables you to make window "untouchable" for PID-messages. This is very helpful if you create windows like screen-keypads to avoid context switch to bottom placed windows.
+This function enables you to make window "untouchable" for PID-messages. This is very helpful if you create windows like screen-keypads and wish to avoid context (focus) switch to bottom placed windows.
 
 But this function is absent in previous versions of emWin.
 
