@@ -15,4 +15,4 @@ For every "create"-function like FRAMEWIN_CreateEx or WINDOW_CreateEx, BUTTON_Cr
 
 And if you used them, you can use the only one call of function setUntouchable(WM_HWIN hWin, U8 OnOff) to enable/disable "untouchable"-behaviour for some parent-window including all its childs.
 
-Also you can use correspondent indirect creators like WINDOW_CreateUntouchableIndirect or DROPDOWN_CreateUntouchableIndirect etc. instead of WINDOW_CreateIndirect or DROPDOWN_CreateIndirect etc.
+Also you can use indirect creators like WINDOW_CreateUntouchableIndirect or DROPDOWN_CreateUntouchableIndirect etc. instead of WINDOW_CreateIndirect or DROPDOWN_CreateIndirect etc.
