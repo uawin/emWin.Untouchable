@@ -11,7 +11,7 @@ It can be used also if you have only precompiled emWin-library instead of its so
 
 You can easily extend this lib with absent widgets (some of standard emWin-widgets are missed, because I do not use them in my project).
 
-For every "create"-function like FRAMEWIN_CreateEx or WINDOW_CreateEx, BUTTON_CreateEx, EDIT_CreateEx etc. there is correspondent FRAMEWIN_CreateUntouchable or WINDOW_CreateUntouchable, BUTTON_CreateUntouchable, EDIT_CreateUntouchable etc.
+For every "create"-function like FRAMEWIN_CreateEx or WINDOW_CreateEx, BUTTON_CreateEx, EDIT_CreateEx etc. there is corresponding FRAMEWIN_CreateUntouchable or WINDOW_CreateUntouchable, BUTTON_CreateUntouchable, EDIT_CreateUntouchable etc.
 
 And if you used them, you can use the only one call of function setUntouchable(WM_HWIN hWin, U8 OnOff) to enable/disable "untouchable"-behaviour for some parent-window including all its childs.
 
